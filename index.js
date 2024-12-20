@@ -47,7 +47,7 @@ app.get("/info", (req, res) => {
 });
 
 app.get("/api/persons", (req, res) => {
-  res.json({ method: req.method, message: "Hello World", ...persons });
+  res.json({ method: req.method, ...persons });
 });
 
 app.get("/api/persons/:id", (req, res) => {
