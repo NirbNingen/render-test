@@ -1,0 +1,30 @@
+GET http://localhost:3001/api/persons
+
+### GET info
+
+GET http://localhost:3001/info
+Content-Type: application/json
+
+### GET person
+
+GET http://localhost:3001/api/persons/3
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+   "name": "Naïma Oei",
+   "number": "031-2999840" 
+}
+
+### No content
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+
+### delete person
+
+DELETE http://localhost:3001/api/persons/4
