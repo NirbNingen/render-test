@@ -11,6 +11,15 @@ GET http://localhost:3001/api/persons/3
 
 ###
 
+POST https://render-test-gmry.onrender.com/api/persons
+Content-Type: application/json
+
+{
+   "name": "Naïma Oei",
+   "number": "031-2999840" 
+}
+###
+
 POST http://localhost:3001/api/persons
 Content-Type: application/json
 
